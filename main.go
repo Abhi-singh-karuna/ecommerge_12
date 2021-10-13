@@ -33,6 +33,8 @@ func main() {
 
 }
 
+//router
+
 func setRoutes(app *fiber.App) {
 
 	api := app.Group("/")

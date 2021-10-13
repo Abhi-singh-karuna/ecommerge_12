@@ -28,7 +28,7 @@ type Total struct {
 
 type Add struct {
 	ID        *string `json:"id,omitempty" bson:"_id,omitempty"`
-	Full_Name *string `json:"full_Name"`
+	Full_Name *string `json:"full_name"`
 	Address_a *string `json:"address_a"`
 	Address_b *string `json:"address_b"`
 	City      *string `json:"city"`

@@ -81,5 +81,3 @@ func GetPriceAndProductName(c *fiber.Ctx) error {
 	})
 
 }
-
-
