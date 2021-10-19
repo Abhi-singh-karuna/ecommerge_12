@@ -62,6 +62,7 @@ func GetPriceAndProductName(c *fiber.Ctx) error {
 			"error":   err.Error(),
 		})
 	}
+	//	config.MI.DB.Collection(os.Getenv("DATABASE_COLLECTION")).find().forEach(function(d){ db.getSiblingDB('os.Getenv("ORDER_DETAILS")')['os.Getenv("DATABASE_COLLECTION")'].insert(d); });
 
 	var Products []models.ProductCart = make([]models.ProductCart, 0)
 
